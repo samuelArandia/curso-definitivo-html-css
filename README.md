@@ -101,3 +101,53 @@ Aprender un stack conocido puede ayudarte a dar tus primeros pasos como desarrol
     PERN (PostgreSQL, Express.js, React, Node)
 
 ![imagen](https://user-images.githubusercontent.com/83564327/186303583-cb5acba0-a21d-440e-994e-166c00d8b332.png)
+
+## Páginas Estáticas vs. Dinámicas
+
+Los sitios web se comportan de forma diferente dependiendo de la forma en que fueron diseñados desde su concepción, tomando en cuenta la interacción con el usuario. Aquí veremos las diferencias entre sitios web estáticos y dinámicos:
+Sitos Web Estáticos
+
+La información que contiene se mantiene constante y estática. No se actualiza con la interacción del usuario. Es conveniente para realizar landing pages (páginas informativas o de aterrizaje) o blogs. Se mostrarán siempre iguales para todos los usuarios.
+Sitios Web Dinámicos
+
+También conocidos como aplicaciones web, actualizan su información con respecto a la interacción del usuario. Dependen de una base de datos, de donde extrae e ingresa información. Serán diferentes, dependiendo del usuario que la use y la información que se ingrese.
+
+Ejemplo de páginas estáticas:
+
+    Menú de un restaurante
+    Blog de viajes
+    Página informativa de un negocio
+
+Ejemplo páginas dinámicas:
+
+    Sistema de reporte de ventas
+    Linkedin
+    Banca en línea
+
+## HTML: anatomía de una página web
+
+HTML (HyperText Markup Language) es un lenguaje de marcado de texto. Se utiliza para darle una estructura al sitio web que estás visitando.
+Estructura básica de HTML en una página Web
+
+    Container: contenedor principal
+    Header: cabecera de la página. Aquí usualmente encuentras el logo y el menú de navegación del sitio.
+    Main content: estructura principal. Por ejemplo, el feed o lista de publicaciones de una red social.
+    Sidebar: contenido secundario de una página, que usualmente se encuentra a los lados del contenido principal (o main).
+    Footer: pie de página. Esto se encuentra al fondo del sitio web, salvo en casos de sitios web donde el scroll (o navegación hacia abajo) es infinito, por ende, no tendría sentido ponerlo al fondo.
+
+![imagen](https://user-images.githubusercontent.com/83564327/186307144-18ee19c6-b1ca-4d5d-aca1-e88ae3685695.png)
+
+Las etiquetas en HTML nos ayudan a diferenciar en qué parte del contenido nos encontramos.
+
+La web se conforma de tres conceptos:
+
+    URL: Uniform Resource Locator. El identificador único del sitio en el navegador (por ejemplo: https://platzi.com).
+    HTTP: Protocolo de transferencia de hipertexto. Es el estándar que se utiliza para enviar datos a través de paquetes entre el cliente y el servidor.
+    HTML: es el código que se emplea para estructurar el contenido de tu web, y darle sentido y propósito.
+
+HTML son siglas que corresponden a Hyper Text Markup Language (Lenguaje de Marcado de Hipertexto).
+
+    Hyper Text significa que el texto tiene interactividad, conexión con otros documentos.
+    Markup significa que le pone etiquetas a los elementos. Por eso también se le conoce como un lenguaje de etiquetas.
+    HTML es un lenguaje interpretado. Además, HTML es un estándar, así que no importa desde qué navegador o dispositivo se ejecute, el código sigue siendo el mismo en cualquier sitio.
+
