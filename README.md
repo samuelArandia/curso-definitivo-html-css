@@ -220,4 +220,10 @@ Ejemplo de un body con etiquetas semánticas HTML.
 
   </body>
 
+## Anatomia de un etiqueta de HTML 
+    Una etiqueta HTML puede tener tantos atributos como desees, y cada atributo tiene su propia función. En el siguiente ejemplo, veremos la forma en la que se compone una etiqueta HTML:
+![imagen](https://user-images.githubusercontent.com/83564327/186424160-b9a8dae4-d301-46a0-a981-a637c7f6027e.png)
 
+    No todas las etiquetas llevan una etiqueta de cierre. Las que llevan un cierre son aquellas que albergan un contenido que nos dice a dónde nos va a llevar (nombre de la página, nombre del link).
+    Lo que va dentro de la etiqueta de apertura es un atributo (nombre del atributo = href y el valor del atributo es la url).
+    El contenido + la etiqueta = Elemento
