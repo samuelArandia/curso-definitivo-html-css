@@ -141,13 +141,13 @@ Las etiquetas en HTML nos ayudan a diferenciar en qué parte del contenido nos e
 
 La web se conforma de tres conceptos:
 
-    URL: Uniform Resource Locator. El identificador único del sitio en el navegador (por ejemplo: https://platzi.com).
-    HTTP: Protocolo de transferencia de hipertexto. Es el estándar que se utiliza para enviar datos a través de paquetes entre el cliente y el servidor.
-    HTML: es el código que se emplea para estructurar el contenido de tu web, y darle sentido y propósito.
+    -URL: Uniform Resource Locator. El identificador único del sitio en el navegador (por ejemplo: https://platzi.com).
+    -HTTP: Protocolo de transferencia de hipertexto. Es el estándar que se utiliza para enviar datos a través de paquetes entre el cliente y el servidor.
+   -HTML: es el código que se emplea para estructurar el contenido de tu web, y darle sentido y propósito.
 
 HTML son siglas que corresponden a Hyper Text Markup Language (Lenguaje de Marcado de Hipertexto).
 
-    Hyper Text significa que el texto tiene interactividad, conexión con otros documentos.
-    Markup significa que le pone etiquetas a los elementos. Por eso también se le conoce como un lenguaje de etiquetas.
-    HTML es un lenguaje interpretado. Además, HTML es un estándar, así que no importa desde qué navegador o dispositivo se ejecute, el código sigue siendo el mismo en cualquier sitio.
+    -Hyper Text significa que el texto tiene interactividad, conexión con otros documentos.
+    -Markup significa que le pone etiquetas a los elementos. Por eso también se le conoce como un lenguaje de etiquetas.
+    -HTML es un lenguaje interpretado. Además, HTML es un estándar, así que no importa desde qué navegador o dispositivo se ejecute, el código sigue siendo el mismo en cualquier sitio.
 
