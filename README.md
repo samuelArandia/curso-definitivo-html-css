@@ -19,7 +19,7 @@ Frameworks de CSS para frontend:
     Foundation CSS: https://get.foundation/
     Materialize CSS: https://materializecss.com/
 
-Los frameworks de JavaScript para frontend:
+Los frameworks  y librerias de JavaScript para frontend:
 
     React JS: https://es.reactjs.org/
     Angular JS: https://angular.io/
@@ -35,5 +35,4 @@ Compiladores / empaquetadores de JS:
     BABEL: https://babeljs.io/
     Webpack: https://webpack.js.org/
 
-Aporte creado por: Christian Tambo, Manuel Duarte.
 
