@@ -9,31 +9,31 @@ Herramientas que maneja un frontend
 
 Debido a que un frontend es el desarrollador que va a manejar las cosas del lado del cliente, las tecnologías con las que va a trabajar son:
 
-    HTML
-    CSS
-    JavaScript
+    -HTML
+    -CSS
+    -JavaScript
 
 Frameworks de CSS para frontend:
 
-    Bootstrap
-    Foundation CSS
-    Materialize CSS
+    -Bootstrap
+    -Foundation CSS
+    -Materialize CSS
 
 Los frameworks  y librerias de JavaScript para frontend:
 
-    React JS
-    Angular JS
-    Vue JS: https
+    -React JS
+    -Angular JS
+    -Vue JS: https
 
 Preprocesadores de CSS:
 
-    Stylus
-    SASS
+    -Stylus
+    -SASS
 
 Compiladores / empaquetadores de JS:
 
-    BABEL
-    Webpack
+    -BABEL
+    -Webpack
 
 
 ## Backend
@@ -42,18 +42,18 @@ Backend en programación corresponde al lado opuesto a un Front-end en un sitio 
 
 Una característica que lo diferencia del Frontend es que no tiene estándares, puesto que tiene varios lenguajes de programación (Node.js, Python, PHP, Ruby, GO, Java, .NET entre otros) con los que debe trabajar. Cada uno de estos lenguajes tiene sus propios frameworks como:
 
-    Django (Python)
-    Lavarel (PHP)
-    Rails (Ruby)
-    Express (JavaScript)
-    Spring (Java)
+    -Django (Python)
+    -Lavarel (PHP)
+    -Rails (Ruby)
+    -Express (JavaScript)
+    -Spring (Java)
 
 El Backend también tiene en cuenta la infraestructura donde va a realizarse el deploy de su aplicación (esto también puede ser tarea de un DevOps, un perfil dedicado a la infraestructura), con tecnologías como:
 
-    Google Cloud
-    DigitalOcean
-    AWS
-    Heroku, entre otras.
+    -Google Cloud
+    -DigitalOcean
+    -AWS
+    -Heroku, entre otras.
 
 ¿Qué es deploy?
 
@@ -61,8 +61,8 @@ Deploy es un término famoso entre los desarrolladores web. Puede significar muc
 
 Por último, entramos en bases de datos, que son las encargadas de almacenar toda la información del proyecto. Los principales tipos son:
 
-    Bases de datos relacionales (como MySQL)
-    Bases de datos no relacionales (como mongoDB).
+    -Bases de datos relacionales (como MySQL)
+    -Bases de datos no relacionales (como mongoDB).
 
 
 ## Full Stack 
@@ -93,12 +93,12 @@ Tecnologías Full Stack para desarrolladores
 
 Aprender un stack conocido puede ayudarte a dar tus primeros pasos como desarrollador Full Stack y a escalar un proyecto a producción de una manera más rápida y con una mayor interacción. Para eso necesitas estas herramientas.
 
-    LAMP (Linux, Apache, MySQL, PHP)
+    -LAMP (Linux, Apache, MySQL, PHP)
 
 ![imagen](https://user-images.githubusercontent.com/83564327/186303554-640324b8-cf43-4010-9e9c-97963d4252c9.png)
 
-    MERN (MongoDB, Express.js, React, Node)
-    PERN (PostgreSQL, Express.js, React, Node)
+    -MERN (MongoDB, Express.js, React, Node)
+    -PERN (PostgreSQL, Express.js, React, Node)
 
 ![imagen](https://user-images.githubusercontent.com/83564327/186303583-cb5acba0-a21d-440e-994e-166c00d8b332.png)
 
@@ -114,26 +114,26 @@ También conocidos como aplicaciones web, actualizan su información con respect
 
 Ejemplo de páginas estáticas:
 
-    Menú de un restaurante
-    Blog de viajes
-    Página informativa de un negocio
+    -Menú de un restaurante
+    -Blog de viajes
+    -Página informativa de un negocio
 
 Ejemplo páginas dinámicas:
 
-    Sistema de reporte de ventas
-    Linkedin
-    Banca en línea
+    -Sistema de reporte de ventas
+    -Linkedin
+    -Banca en línea
 
 ## HTML: anatomía de una página web
 
 HTML (HyperText Markup Language) es un lenguaje de marcado de texto. Se utiliza para darle una estructura al sitio web que estás visitando.
 Estructura básica de HTML en una página Web
 
-    Container: contenedor principal
-    Header: cabecera de la página. Aquí usualmente encuentras el logo y el menú de navegación del sitio.
-    Main content: estructura principal. Por ejemplo, el feed o lista de publicaciones de una red social.
-    Sidebar: contenido secundario de una página, que usualmente se encuentra a los lados del contenido principal (o main).
-    Footer: pie de página. Esto se encuentra al fondo del sitio web, salvo en casos de sitios web donde el scroll (o navegación hacia abajo) es infinito, por ende, no tendría sentido ponerlo al fondo.
+    -Container: contenedor principal
+    -Header: cabecera de la página. Aquí usualmente encuentras el logo y el menú de navegación del sitio.
+    -Main content: estructura principal. Por ejemplo, el feed o lista de publicaciones de una red social.
+    -Sidebar: contenido secundario de una página, que usualmente se encuentra a los lados del contenido principal (o main).
+    -Footer: pie de página. Esto se encuentra al fondo del sitio web, salvo en casos de sitios web donde el scroll (o navegación hacia abajo) es infinito, por ende, no tendría sentido ponerlo al fondo.
 
 ![imagen](https://user-images.githubusercontent.com/83564327/186307144-18ee19c6-b1ca-4d5d-aca1-e88ae3685695.png)
 
