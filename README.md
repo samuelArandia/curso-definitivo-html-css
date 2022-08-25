@@ -323,4 +323,7 @@ La etiqueta <video>, tiene algunos atributos como:
 -preload = auto: hace que el navegador descargue el video, en el momento en el que se acceda a la página.
 
 La etiqueta <source>, se puede colocar dentro de una etiqueta <video> varias veces, para especificar diferentes rutas. Esto para asegurar que cualquier navegador pueda mostrar el video.
+![imagen](https://user-images.githubusercontent.com/83564327/186669002-bfc4e39c-284e-4a7c-a496-61d26d822c35.png)
+![imagen](https://user-images.githubusercontent.com/83564327/186669111-cc75067f-7fa2-4c71-8b22-3e930bee85c5.png)
+
    
