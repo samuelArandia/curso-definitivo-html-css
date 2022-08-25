@@ -252,16 +252,17 @@ Lossy (con pérdida):
 
 Formatos de imagen para web
 
-    GIF (Graphics Interchange Format): Formato de imagen sin pérdida, no se puede comprimir
-    PNG 8 (Portable Network Graphics): Formato de imagen sin pérdida, uso de colores de 256, se utiliza para logotipos e iconos para la página.
-    PNG 24 (Portable Network Graphics): Formato de imagen sin pérdida, utilización de colores ilimitados, alta calidad, si intentamos comprimir no ayudará demasiado por la gran cantidad de colores.
-    JPG / JPEG (Photographic Experts Group): Formato de imagen con pérdida, perdemos calidad a la hora de comprimirlas, pero llegan a ser óptimas para la carga en la página web.
-    SVG - Vector (Scalable Vector Graphics): Formato de imagen muy ligero sin pérdida, con svg no perdemos calidad, ya que está compuesta por vectores.
-    WebP: Es un formato gráfico en forma de contenedor que sustenta tanto compresión con pérdida como sin ella. ​​Fue desarrollado por Google.
+    -GIF (Graphics Interchange Format): Formato de imagen sin pérdida, no se puede comprimir
+    -PNG 8 (Portable Network Graphics): Formato de imagen sin pérdida, uso de colores de 256, se utiliza para logotipos e iconos para la página.
+    -PNG 24 (Portable Network Graphics): Formato de imagen sin pérdida, utilización de colores ilimitados, alta calidad, si intentamos comprimir no ayudará demasiado por la gran cantidad de colores.
+    -JPG / JPEG (Photographic Experts Group): Formato de imagen con pérdida, perdemos calidad a la hora de comprimirlas, pero llegan a ser óptimas para la carga en la página web.
+    -SVG - Vector (Scalable Vector Graphics): Formato de imagen muy ligero sin pérdida, con svg no perdemos calidad, ya que está compuesta por vectores.
+   -WebP: Es un formato gráfico en forma de contenedor que sustenta tanto compresión con pérdida como sin ella. ​​Fue desarrollado por Google.
 
   ### Plus de imagenes 
    
-.Para Iconos: FlatIcon
+-Para Iconos: FlatIcon
 Ahí van a encontrar miles de iconos de muy buena calidad y de lo que sea que busquen, siendo estos, gratuitos de uso. Además de que se pueden descargar en png, con diferentes resoluciones, o directamente en svg. También puedes editar los iconos directamente.
-.Para imágenes: Freepik
+    
+-Para imágenes: Freepik
 Aquí hay, tanto iconos, como ilustraciones completas, de mucha calidad, que se pueden descargar en png o psd. Igualmente son de uso libre.
