@@ -248,6 +248,8 @@ Lossy (con pérdida):
     Por consiguiente puede reducir su tamaño, lo que mejora el tiempo de carga de la página, pero pierde su calidad.
     Los archivos tipo lossy son mucho más livianos que los archivos tipo lossless, por lo que son ideales para usar en sitios en donde el tamaño del archivo y la velocidad de descarga son importantes.
 
+![imagen](https://user-images.githubusercontent.com/83564327/186550752-6328a755-30bb-4c1e-9933-978364ec700e.png)
+
 Formatos de imagen para web
 
     GIF (Graphics Interchange Format): Formato de imagen sin pérdida, no se puede comprimir
