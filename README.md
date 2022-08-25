@@ -311,5 +311,5 @@ representa contenido independiente, a menudo con un título. Por lo general, se 
             src="./pics/tinified/small.jpg"
             alt="Es una imagen de un perrito"
           />
-          <figcaption>Es una imagen de un perritofigcaption>  
-figure>
+          <figcaption>Es una imagen de un perrito <figcaption>  
+        </figure>
