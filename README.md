@@ -259,3 +259,9 @@ Formatos de imagen para web
     SVG - Vector (Scalable Vector Graphics): Formato de imagen muy ligero sin pérdida, con svg no perdemos calidad, ya que está compuesta por vectores.
     WebP: Es un formato gráfico en forma de contenedor que sustenta tanto compresión con pérdida como sin ella. ​​Fue desarrollado por Google.
 
+  ### Plus de imagenes 
+   
+.Para Iconos: FlatIcon
+Ahí van a encontrar miles de iconos de muy buena calidad y de lo que sea que busquen, siendo estos, gratuitos de uso. Además de que se pueden descargar en png, con diferentes resoluciones, o directamente en svg. También puedes editar los iconos directamente.
+.Para imágenes: Freepik
+Aquí hay, tanto iconos, como ilustraciones completas, de mucha calidad, que se pueden descargar en png o psd. Igualmente son de uso libre.
