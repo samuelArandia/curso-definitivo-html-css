@@ -338,4 +338,30 @@ El formulario perfecto es el que no existe.
 Forma de hacer un calendario en un un solo input 
               
                           <input type="datetime-local" name="calendario" id="calendario">
+                        
+## Autocomplet y require
 
+Nos sirve para rellenar información que el navegador tiene guardada para que se complete más rapido el formulario, y el requiere para que al enviar un formulario no este ningun campo vacio. 
+
+                https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete
+                   
+                           
+                                
+               <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+
+
+## SELECT
+
+Mejor practica para crear un select. Incluye un autocomplet
+
+             <datalist id="cursos">
+            <option value="JavaScript"></option>
+            
+## Input type submit vs. Button tag
+
+            <!-- // solo para formularios -->
+            <input type="submit" value="Nombre" /> // con el atributo value podremos cambiar el texto que se vera en el
+
+            <!-- // lo usaremos para cualquier caso en el que necesitemos un boton -->
+            <button type="submit">Qué color te gusta?</button> 
+            <!-- // si quieres usar un button en un formulario debes agregarle el type = "submit" -->
