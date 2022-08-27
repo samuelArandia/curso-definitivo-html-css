@@ -1,4 +1,4 @@
-### Curso definitivo de HTML  Y CSS 
+#Curso definitivo de HTML  Y CSS 
 
 ## Frontend 
 
@@ -124,7 +124,7 @@ Ejemplo páginas dinámicas:
     -Linkedin
     -Banca en línea
 
-## HTML: anatomía de una página web
+# HTML: anatomía de una página web
 
 HTML (HyperText Markup Language) es un lenguaje de marcado de texto. Se utiliza para darle una estructura al sitio web que estás visitando.
 Estructura básica de HTML en una página Web
@@ -397,9 +397,9 @@ Mejor practica para crear un select. Incluye un autocomplet
                 :nth-child() 
                 // tag:nth-child(2){} //afectara al segundo elemento      
                 
-# Anatomía de una regla de CSS
+## Anatomía de una regla de CSS
                  
                  ![imagen](https://user-images.githubusercontent.com/83564327/187051192-0e47be6e-f0ed-48b9-8fdc-1afb23a71e47.png)
-# Modelo de caja 
+## Modelo de caja 
                  ![imagen](https://user-images.githubusercontent.com/83564327/187051240-43fab75d-23be-434a-9c2e-fcf037a7d497.png)
 
