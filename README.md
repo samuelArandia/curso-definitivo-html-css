@@ -365,3 +365,11 @@ Mejor practica para crear un select. Incluye un autocomplet
             <!-- // lo usaremos para cualquier caso en el que necesitemos un boton -->
             <button type="submit">Qué color te gusta?</button> 
             <!-- // si quieres usar un button en un formulario debes agregarle el type = "submit" -->
+
+ # CSS (Cascading Style Sheets)
+                 
+  CSS viene de las iniciales de "Cascading Style Sheets", que traducimos por "Hojas de estilo en cascada". Es el segundo lenguaje más esencial para crear páginas web. El primero sería HTML, con el que se define el contenido de la página. El segundo CSS, con el que se define la parte de la presentación, es decir, cómo deben mostrarse los elementos de la página, su posición, forma, espaciados, colores y en resumen, toda la parte estética.
+                 
+ ## Pseudo clases y pseudo elementos 
+                
+                 
