@@ -405,3 +405,12 @@ Mejor practica para crear un select. Incluye un autocomplet
                   ![imagen](https://user-images.githubusercontent.com/83564327/187051318-b2048310-f78a-44cf-b708-0f07bb78c459.png)
                    ![imagen](https://user-images.githubusercontent.com/83564327/187051324-42d4c451-c21d-40cb-a0ba-558bc3c69cf3.png)
 
+## Modelo de caja 
+
+Siempre debe tener este estilo al inico de crea una pagina web 
+
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+             }
