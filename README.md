@@ -371,6 +371,10 @@ Mejor practica para crear un select. Incluye un autocomplet
   CSS viene de las iniciales de "Cascading Style Sheets", que traducimos por "Hojas de estilo en cascada". Es el segundo lenguaje más esencial para crear páginas web. El primero sería HTML, con el que se define el contenido de la página. El segundo CSS, con el que se define la parte de la presentación, es decir, cómo deben mostrarse los elementos de la página, su posición, forma, espaciados, colores y en resumen, toda la parte estética.
                  
  ## Pseudo clases y pseudo elementos 
+  
+ Documentación
+ https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-elements
+ https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes
                 
                 /*Algunos Pseudo-classes:*/
                 :root{}
