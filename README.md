@@ -150,4 +150,180 @@ HTML son siglas que corresponden a Hyper Text Markup Language (Lenguaje de Marca
     -Hyper Text significa que el texto tiene interactividad, conexión con otros documentos.
     -Markup significa que le pone etiquetas a los elementos. Por eso también se le conoce como un lenguaje de etiquetas.
     -HTML es un lenguaje interpretado. Además, HTML es un estándar, así que no importa desde qué navegador o dispositivo se ejecute, el código sigue siendo el mismo en cualquier sitio.
+    
+ ## Index y su estructura básica: body
+ 
+body es la etiqueta que identifica la parte visible de nuestro sitio web. Dentro del body, se añadirán las etiquetas para marcar los elementos visuales del sitio web, como logotipo, menús de navegación, contenido principal, entre otrs. Es muy importante usar HTML semántico y no llenar todo de <div> para que nuestro sitio sea mejor interpretado por el navegador y, por lo tanto, más accesible.
+Etiquetas del cuerpo del documento (body):
 
+    article: diferencia partes del contenido que pueden vivir por sí mismas.
+    nav: para hacer menús de navegación.
+    aside: contenido menos relevante, como publicidad, etc.
+    section: sirve para diferenciar las secciones principales del contenido.
+    header: cabecera del documento.
+    footer: pie de página del documento.
+    h1 - h6: títulos de nuestro sitio web.
+    table: tablas de contenidos, similar a la estructura de las hojas de calculo.
+    ul y ol: listas de items.
+    div: cualquier división para organizar el contenido.
+    h1 a h6: son etiquetas para indicar títulos con un estilo que destaca del resto.
+    article: es la parte de nuestro contenido que puede vivir por sí mismo. Pueden haber tantos artícle como proyectos o eventos tenga nuestro portafolio.
+    p: define el texto de un párrafo.
+    small: aplica una apariencia de texto reducido en tamaño.
+    strong: aplica al texto un formato de negritas.
+    a: corresponde a un ancla o enlace a una url interna o externa del documento.
+    img: con esta etiqueta podemos enlazar imágenes en el documento.
+    figure: le da un contexto semántico a las imágenes.
+
+Ejemplo de un body con etiquetas semánticas HTML.
+
+  <body>
+
+    <header> <!--Sección superior de nuestro website--> 
+
+      <nav></nav> <!--Sección de navegación de nuestro website, siempre dentro del header-->
+
+    </header>
+
+    <main> <!--Main es el contenido central de nuestro website, "la parte del medio"-->
+
+      <section> 
+        <!--Nuestro website puede estar divido por secciones, por ejemplo platzi tiene 3: El navegador de cursos y rutas, el feed y nuestras rutas de aprendizaje-->
+
+        <article>
+          <!--Contenido independiente de la página. Es reutilizable-->
+        </article>
+
+      </section>
+
+      <ul> <!--Lista desordenada: Sin numerar-->
+
+        <li><!--Item List. Elementos de la lista--></li>
+
+      </ul>
+
+      <ol></ol> <!--Lista ordenada: Numerada-->
+      
+    </main>
+
+    <footer> <!--Sección final de nuestro website-->
+
+    </footer>
+
+    <p>Soy un texto</p> <!--Párrafo, texto-->
+
+    <h1>Soy un titulo</h1> 
+    <!--Títulos, muestran el texto más grande y con negrilla. Existen desde el h1 al h6-->
+
+    <a href="#">Soy un link</a>
+    <!--Enlaces/links que nos permitirán movernos entre páginas.-->
+
+  </body>
+
+## Anatomia de un etiqueta de HTML 
+    
+Una etiqueta HTML puede tener tantos atributos como desees, y cada atributo tiene su propia función. En el siguiente ejemplo, veremos la forma en la que se compone una etiqueta HTML:
+    
+![imagen](https://user-images.githubusercontent.com/83564327/186424160-b9a8dae4-d301-46a0-a981-a637c7f6027e.png)
+
+    -No todas las etiquetas llevan una etiqueta de cierre.
+    -Las que llevan un cierre son aquellas que albergan un contenido que nos dice a dónde nos va a llevar (nombre de la página, nombre del link).
+    -Lo que va dentro de la etiqueta de apertura es un atributo (nombre del atributo = href y el valor del atributo es la url).
+    El contenido + la etiqueta = Elemento
+    
+##  Tipos y formatos de imagenes 
+
+Las imágenes representan una pieza fundamental al momento de mostrar contenido para web. Aquí conoceremos los principales tipos de imágenes web y sus formatos.
+Tipos de imágenes para web
+Lossless (sin pérdida):
+
+    Capturan todos los datos del archivo original.
+    No se pierde nada del archivo original.
+    Puede comprimirse, pero podrá reconstruir su imagen al estado original
+
+Lossy (con pérdida):
+
+    Se aproximan a su imagen original.
+    Podría reducir la cantidad de colores en su imagen o analizar la imagen en busca de datos innecesarios.
+    Por consiguiente puede reducir su tamaño, lo que mejora el tiempo de carga de la página, pero pierde su calidad.
+    Los archivos tipo lossy son mucho más livianos que los archivos tipo lossless, por lo que son ideales para usar en sitios en donde el tamaño del archivo y la velocidad de descarga son importantes.
+
+![imagen](https://user-images.githubusercontent.com/83564327/186550752-6328a755-30bb-4c1e-9933-978364ec700e.png)
+
+Formatos de imagen para web
+
+    -GIF (Graphics Interchange Format): Formato de imagen sin pérdida, no se puede comprimir
+    -PNG 8 (Portable Network Graphics): Formato de imagen sin pérdida, uso de colores de 256, se utiliza para logotipos e iconos para la página.
+    -PNG 24 (Portable Network Graphics): Formato de imagen sin pérdida, utilización de colores ilimitados, alta calidad, si intentamos comprimir no ayudará demasiado por la gran cantidad de colores.
+    -JPG / JPEG (Photographic Experts Group): Formato de imagen con pérdida, perdemos calidad a la hora de comprimirlas, pero llegan a ser óptimas para la carga en la página web.
+    -SVG - Vector (Scalable Vector Graphics): Formato de imagen muy ligero sin pérdida, con svg no perdemos calidad, ya que está compuesta por vectores.
+   -WebP: Es un formato gráfico en forma de contenedor que sustenta tanto compresión con pérdida como sin ella. ​​Fue desarrollado por Google.
+
+  ### Plus de imagenes 
+   
+-Para Iconos: FlatIcon
+Ahí van a encontrar miles de iconos de muy buena calidad y de lo que sea que busquen, siendo estos, gratuitos de uso. Además de que se pueden descargar en png, con diferentes resoluciones, o directamente en svg. También puedes editar los iconos directamente.
+    
+-Para imágenes: Freepik
+Aquí hay, tanto iconos, como ilustraciones completas, de mucha calidad, que se pueden descargar en png o psd. Igualmente son de uso libre.
+
+## Etiquetas de imagenes 
+
+El elemento HTML <img> incrusta una imagen dentro de un documento. A continuación, veremos cómo funciona.
+
+La etiqueta <img> va siempre dentro del contenedor <body>, pues es un elemento visible.
+Funcionamiento de la etiqueta alt:
+
+<img src=“ubicación de la imagen” alt=“descripción de la imagen”>
+
+Con esta misma estructura, podemos utilizar el siguiente ejemplo de un estudiante cansado:
+
+<img src=“https://www.ipp.edu.pe/blog/wp-content/uploads/2020/05/shutterstock_1489158410.jpg” alt=“estudiante cansado”>
+
+Al añadir el código que acabamos de crear a un documento, la imagen que se mostrará en el navegador es la siguiente:
+Atributos de la etiqueta img
+
+La etiqueta img cuenta con dos atributos, el atributo “src” y el segundo atributo es “alt”. Ambos son importantes.
+
+El atributo de “src” es para mostrar en dónde se encuentra la imagen que vamos a incrustar. Las imágenes se pueden obtener de alguna carpeta o una URL que obtengamos de internet.
+
+    En caso de que el nombre de tu imagen lleve algún espacio, deberás sustituir ese espacio con un guion o guion medio. Caso contrario, el navegador no podrá reconocer la ubicación.
+
+alt sirve para agregar una descripción a nuestra imagen. Esto es útil por cuestiones de SEO y también para accesibilidad (por ejemplo para personas con visión reducida).
+
+    <img/>, a diferencia de la gran mayoría de las demás etiquetas de HMTL, no necesita una etiqueta de cierre.
+
+
+## Etiqueta figure 
+
+
+es una etiqueta que permite almacenar una imagen en su interior. Es una mejor práctica comparada con usar solamente un contenedor div. Como complemento al contenedor figure, se utiliza la etiqueta figcaption
+, que permite darle una pequeña descripción a la imagen, como el autor, fuente o algo por el estilo, que se mostrará usualmente abajo de la imagen.
+
+Figcaption se diferencia del atributo Alt porque esta última muestra su descripción en texto en el navegador solamente al pasar el mouse por encima de la imagen (de ahí su utilidad para personas con discapacidad visual).
+
+Es importante considerar que la etiqueta figure no es únicamente para imágenes:
+El elemento HTML
+representa contenido independiente, a menudo con un título. Por lo general, se trata de una imagen, una ilustración, un diagrama, un fragmento de código, o un esquema al que se hace referencia en el texto principal, pero que se puede mover a otra página o a un apéndice sin que afecte al flujo principal.
+
+        <figure>
+          <img
+            src="./pics/tinified/small.jpg"
+            alt="Es una imagen de un perrito"
+          />
+          <figcaption>Es una imagen de un perrito <figcaption>  
+        </figure>
+              
+## Etiqueta video 
+
+La etiqueta <video>, tiene algunos atributos como:
+
+-controls: agrega al video los controles necesarios para reproducir, pausar y adelantar.
+
+-preload = auto: hace que el navegador descargue el video, en el momento en el que se acceda a la página.
+
+La etiqueta <source>, se puede colocar dentro de una etiqueta <video> varias veces, para especificar diferentes rutas. Esto para asegurar que cualquier navegador pueda mostrar el video.
+![imagen](https://user-images.githubusercontent.com/83564327/186669002-bfc4e39c-284e-4a7c-a496-61d26d822c35.png)
+![imagen](https://user-images.githubusercontent.com/83564327/186669111-cc75067f-7fa2-4c71-8b22-3e930bee85c5.png)
+
+   
