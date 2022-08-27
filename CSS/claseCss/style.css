@@ -1,0 +1,21 @@
+/* Selector por elemento */
+h1 {
+    color: red;
+    font-size: 50px;
+}
+
+/* Selector por clases  */
+/* Class */
+
+.subtitulo {
+    color: green;
+    font-size: 50px;
+}
+
+/* Selector por id  */
+/* Id */
+
+#parrafo {
+    color: blue;
+    font-size: 50px;
+}
