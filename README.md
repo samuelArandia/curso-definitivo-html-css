@@ -1,4 +1,4 @@
-### Curso definitivo de HTML  Y CSS 
+# Curso definitivo de HTML Y CSS 
 
 ## Frontend 
 
@@ -124,7 +124,7 @@ Ejemplo páginas dinámicas:
     -Linkedin
     -Banca en línea
 
-## HTML: anatomía de una página web
+# HTML: anatomía de una página web
 
 HTML (HyperText Markup Language) es un lenguaje de marcado de texto. Se utiliza para darle una estructura al sitio web que estás visitando.
 Estructura básica de HTML en una página Web
@@ -371,6 +371,13 @@ Mejor practica para crear un select. Incluye un autocomplet
   CSS viene de las iniciales de "Cascading Style Sheets", que traducimos por "Hojas de estilo en cascada". Es el segundo lenguaje más esencial para crear páginas web. El primero sería HTML, con el que se define el contenido de la página. El segundo CSS, con el que se define la parte de la presentación, es decir, cómo deben mostrarse los elementos de la página, su posición, forma, espaciados, colores y en resumen, toda la parte estética.
                  
  ## Pseudo clases y pseudo elementos 
+  
+ Las pseudo clases definen el estilo de un estado 
+ los pseudo elementos define una parte especifica o cambiar un elemento 
+                 
+ Documentación
+ https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-elements
+ https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes
                 
                 /*Algunos Pseudo-classes:*/
                 :root{}
@@ -388,4 +395,13 @@ Mejor practica para crear un select. Incluye un autocomplet
                 :empty 
                 //ayuda a detectar cuando un elemento esta vacio. //ejemplo .class:empty{background:yellow;} //resaltar
                 :nth-child() 
-                // tag:nth-child(2){} //afectara al segundo elemento              
+                // tag:nth-child(2){} //afectara al segundo elemento      
+                
+## Anatomía de una regla de CSS
+                 
+                 ![imagen](https://user-images.githubusercontent.com/83564327/187051192-0e47be6e-f0ed-48b9-8fdc-1afb23a71e47.png)
+## Modelo de caja 
+                 ![imagen](https://user-images.githubusercontent.com/83564327/187051240-43fab75d-23be-434a-9c2e-fcf037a7d497.png)
+                  ![imagen](https://user-images.githubusercontent.com/83564327/187051318-b2048310-f78a-44cf-b708-0f07bb78c459.png)
+                   ![imagen](https://user-images.githubusercontent.com/83564327/187051324-42d4c451-c21d-40cb-a0ba-558bc3c69cf3.png)
+
