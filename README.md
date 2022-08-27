@@ -372,6 +372,9 @@ Mejor practica para crear un select. Incluye un autocomplet
                  
  ## Pseudo clases y pseudo elementos 
   
+ Las pseudo clases definen el estilo de un estado 
+ los pseudo elementos define una parte especifica o cambiar un elemento 
+                 
  Documentación
  https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-elements
  https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes
@@ -392,4 +395,11 @@ Mejor practica para crear un select. Incluye un autocomplet
                 :empty 
                 //ayuda a detectar cuando un elemento esta vacio. //ejemplo .class:empty{background:yellow;} //resaltar
                 :nth-child() 
-                // tag:nth-child(2){} //afectara al segundo elemento              
+                // tag:nth-child(2){} //afectara al segundo elemento      
+                
+# Anatomía de una regla de CSS
+                 
+                 ![imagen](https://user-images.githubusercontent.com/83564327/187051192-0e47be6e-f0ed-48b9-8fdc-1afb23a71e47.png)
+# Modelo de caja 
+                 ![imagen](https://user-images.githubusercontent.com/83564327/187051240-43fab75d-23be-434a-9c2e-fcf037a7d497.png)
+
