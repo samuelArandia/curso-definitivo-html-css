@@ -1,4 +1,4 @@
-# Curso definitivo de HTML  Y CSS 
+# Curso definitivo de HTML Y CSS 
 
 ## Frontend 
 
@@ -402,4 +402,6 @@ Mejor practica para crear un select. Incluye un autocomplet
                  ![imagen](https://user-images.githubusercontent.com/83564327/187051192-0e47be6e-f0ed-48b9-8fdc-1afb23a71e47.png)
 ## Modelo de caja 
                  ![imagen](https://user-images.githubusercontent.com/83564327/187051240-43fab75d-23be-434a-9c2e-fcf037a7d497.png)
+                  ![imagen](https://user-images.githubusercontent.com/83564327/187051318-b2048310-f78a-44cf-b708-0f07bb78c459.png)
+                   ![imagen](https://user-images.githubusercontent.com/83564327/187051324-42d4c451-c21d-40cb-a0ba-558bc3c69cf3.png)
 
