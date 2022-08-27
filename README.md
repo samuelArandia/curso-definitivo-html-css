@@ -372,4 +372,20 @@ Mejor practica para crear un select. Incluye un autocomplet
                  
  ## Pseudo clases y pseudo elementos 
                 
-                 
+                /*Algunos Pseudo-classes:*/
+                :root{}
+                //representa elemento HTML, con la especificidad de clase //usado para anidar variables CSS
+                :active
+                //se activa al hacer clic down
+                :visited
+                //cambio visual cuando se visita un enlace
+                :hover
+                //permite cambiar el estado de un elemento cuando elmause se sobrepone sobre él
+                :first-child // para afectar solo al primer hijo // se coloca en el padre (ul) para afectar a su primer hijo (li)
+                :last-child // para afectar solo al ultimo hijo
+                :not  //negar una codiciones (ignorar una condicion) //ejemplo .clase:not(last-child)
+                //afecto a todos menos el ultimo
+                :empty 
+                //ayuda a detectar cuando un elemento esta vacio. //ejemplo .class:empty{background:yellow;} //resaltar
+                :nth-child() 
+                // tag:nth-child(2){} //afectara al segundo elemento              
