@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+}
+
+#page-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+    font-size: 18px;
+    font-family: monospace;
+}
+
+#main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+#main-nav li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#main-nav a{
+    text-decoration: none;
+    color: white;
+    background-color: #1325;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#main-nav .contacto{
+    background-color: #f00;
+}
