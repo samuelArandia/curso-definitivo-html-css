@@ -1,0 +1,21 @@
+/* h2 + p {
+    color: red;
+} */
+
+/* General Sibling  (Signo equivalente) */
+
+/* h2 ~ p {
+    color: blue;
+} */
+
+/* Child (Signo mayor que) */
+
+div > p {
+    color: green;
+}
+
+/* Descendiente */
+
+div p { 
+    color: red;
+}
