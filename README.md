@@ -414,3 +414,158 @@ Siempre debe tener este estilo al inico de crea una pagina web
                 margin: 0;
                 padding: 0;
              }
+## Herencia en css
+
+Inherit. Este es un valor por medio de una keyword que especifica que, a la propiedad que se la apliquemos debe de heredar los valores de su elemento padre. Podemos decir que la palabra Inherit significa “Usa el valor de mi padre”, si el elemento padre no tiene definido dicho valor el navegador seguirá el DOM hasta que encuentre un elemento superior que lo contenga, y en ultima instancia de no tenerlo ningún elemento superior se aplicara el valor por defecto.
+
+Initial. Este valor pertenece a la especificación CSS3 y cuando aplicamos a una propiedad el valor initial estamos dando el valor inicial y predefinido por el navegador en cuestión.
+
+Upset. Este valor unset es una combinación entre inherit y initial, cuando utilizamos este valor en una propiedad esta tratara de heredar el valor de su elemento padre si este esta disponible, de no ser así este valor colocará el valor de la propiedad en su valor inicial, como si usáramos inherit e initial juntos.
+
+## Especificidad
+
+La importancia es uno de los conceptos más... pues... importantes (haha, ya sé!). Si dos declaraciones tienen la misma importancia, la especificidad de las reglas decidirá cuál se debe aplicar. Si las reglas tienen la misma especificidad, el orden de las fuentes controla el resultado final.
+
+Especificidad es la manera mediante la cual los navegadores deciden qué valores de una propiedad CSS son más relevantes para un elemento y, por lo tanto, serán aplicados. La especificidad está basada en las reglas de coincidencia que están compuestas por diferentes tipos de selectores CSS.
+
+Especificida pseudo-elementos:
+Pseudo-Clase: (0,1,0)
+Pseudo-Elemento: (0,0,1)
+
+Calculadora de especificidad
+
+            https://www.codecaptain.io/tools/css-specificity-calculator
+            
+![imagen](https://user-images.githubusercontent.com/83564327/187052797-b01a761a-b22b-4b9a-8034-bc78a0921d09.png)
+
+Malas Prácticas
+
+    -Utilizar tanto id en CSS
+    -Utilizar el !important
+    -Utilizar la etiqueta <style> dentro del archivo html
+    -Utilizar el atributo style dentro de las etiquetas html
+    -Utilizar div para contener todo ignorando los header, nav, section, article, etc.
+    -No utilizar la etiqueta <form> para hacer formularios
+    -Utilizar las etiquetas <select> y <option> para hacer selectores o menús desplegables.
+    -No nombrar el primer archivo html del proyecto como index.html
+    -No tener archivos .css para cada pantalla de un proyecto.
+    -Tener todo el css junto en un solo archivo.
+    -No ponerle el atributo alt a una imagen
+    -Poner imágenes dentro de <div> en vez de <figure>
+    -Poner videos que se reproduzcan solos.
+    -No optimizar las imágenes.
+    -No tener cuidado de cual es el formato ideal para las imágenes y su respectivo peso.
+    -No tener cuidado con la respectiva semántica de HTML, y con la sintaxis adecuada para CSS.
+    -No cerrar las etiquetas que se cierran en sí mismas como <br/>
+    -No poner la etiqueta <meta name=”robots” content=”index,follow”> en tu proyecto para que los navegadores los puedan ubicar mejor.
+    -No usar la etiqueta <meta name=”viewpor” content=”width=device-width, initial-scale=1.0”> para hacer tu proyecto responsive.
+    -No poner el atributo autocomplete=”valor” en los campos de tu formulario para hacerle la vida más fácil al usuario
+    -No usar el atributo required en los campos obligatorios de tu formulario como una primera capa de seguridad
+
+## Combinadores 
+
+El combinador hermano adyacente ( +) separa dos selectores y coincide con el segundo elemento solo si sigue inmediatamente al primer elemento, y ambos son hijos del mismo padre element.
+
+![imagen](https://user-images.githubusercontent.com/83564327/187089574-c4b2502c-4039-4b22-b0a9-03c95f92d0ad.png)
+![imagen](https://user-images.githubusercontent.com/83564327/187089753-7d0ec096-a571-4cea-954b-28ba61d6b907.png)
+
+## Medidas 
+
+medida absoluta: el valor de este no cambia y siempre sera el mismo asi la pagina cambie su tamaño, las medidas absolutas son:
+
+            mm = milimetros
+            cm = centimetros
+            in = pulgada
+            pc = picas
+            px = pixel
+            
+
+las medidas relativas: estas medidas heredan el tamaño o se basan en algun tamaño que se alla seleccionado y el valor ira cambiando segun si la pagina cambia de tamaño, las medidas relativas son :
+
+            %
+            em
+            rem
+            
+EM = es un acronimo de elemento y lo que hace es tomar el tamaño de fuente que tenga el padre directo ejemplo:
+
+                    .container {
+                       font-size: 20px
+                       }
+                    
+                    .container div {
+                        font-size: 2em
+                       }
+
+aqui los el tamaño del div que esta dentro de la clase container tenda un tamaño de 40px, ya que 1em = 20px y como estamos asignandole 2 em seria como 20px + 20px y si por ejemplo tenemos el siguiente caso :
+
+                    .container {
+                       font-size: 20px
+                       }
+                    
+                    .container div {
+                        font-size: 2em
+                       }
+                    
+                    .container div p {
+                       font-size: 1.5em
+                       }
+
+a continuacion veremos que la etiqueta p tendra un tamaño de fuente de 60px ya que toma como referencia el tamaño de su padre ( 40px ) y haria la siguiente operacion 40*1.5 que es igual a 60, es por eso que la etiqueta p tomo el valor de 60px      
+
+Unidades absolutas
+
+Generalmente se usa el pixel “px”.
+
+                       h1{
+                       	width: 500px;
+                       }
+
+El problema de usar medidas absolutas es que pueden ser desproporcionadas para distintos tipos de dispositivos.
+Unidades Relativas
+*
+Porcentaje
+
+                    /*Ocupará todo el ancho de la pantalla sin importar el tamaño*/
+                    h1{
+                    	width: 100%;
+                    }                   
+
+em
+Depende exclusivamente del cuerpo tipográfico. Es decir del font-size de la etiqueta de su elemento padre.
+
+body{
+	font-size: 20px;
+}
+h1{
+	font-size: 2em; /*  2 x 20 = 40px */		
+}
+
+Lo bueno de esta unidad es que si en un futuro modificamos el valor del font-size, entonces sus otros valores se ajustarán como podría pasar en el siguiente ejemplo de código.
+
+p {
+	font-size: 24px;
+	margin-top: 1em; /* 1 x 24 = 24px */
+	margin-bottom: 1em; /* 1 x 24 = 24 px*/ 
+}
+
+Lo malo, es que si lo usamos como el profesor planteó como un problema al usar em, podríamos perder la cuenta de cómo calcular el em si es que tenemos muchos elementos anidados (un elemento dentro de otro) ya que depende de su padre directo.
+
+## REM Y EM 
+
+Rem: va a tener como referencia a estilo que tenga la etiqueta rut en ente caso la etiqueta html.
+Em: depende de la dimensión que este mercada en su padre directo. 
+
+1 REM = 16PX
+.
+Si queremos aplicar rem de una forma mas sencilla para no tener que hacer tantos calculos asemos lo siguiente
+.
+vamos a reescribir en css nuestro html
+
+                        html {
+                              font-size: 62.5%; 
+                             }
+                        
+esto lo que hara es darle a el html un valor de 10px ya que 16px - 62.5% = 10px
+
+ahora si por ejemplo a una etiqueta le asignamos 2rem este hara referencia a 20px, o si por ejemplo le damos un valor de 1.5rem su valor sera de 15px
+em
