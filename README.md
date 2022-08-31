@@ -581,7 +581,7 @@ Min-width: se usa para determinar la anchura mínima de un elemento. Previene qu
 Max-width: define el ancho máximo que un elemento puede tener, max-width cambia el tamaño del elemento si el valor de width es mayor que el de max-width.
 		
 		     
-## Position 
+## Position (https://developer.mozilla.org/es/docs/Web/CSS/position)
 		  
 Valores de position
 Static: Posición por defecto de los elementos, conservan la posición y espacio de donde son colocados (estáticos). No se puede usar top, right, bottom y left en esta posición.
@@ -594,3 +594,6 @@ Relative: Conservan su posición original y espacio físico pero se los puede po
 Fixed: Pierden su espacio físico y permanecen de forma fija (siguen el scroll, se colocan al lado izquierdo del viewport), se los puede posicionar mediante las propiedades de top, right, bottom y left.
 		     
 Sticky: Conservan su espacio físico pero cuando el scroll los alcanza lo siguen (sin perder dicho espacio físico), es muy usado para barras de navegación y se lo puede posicionar con las propiedades top, right, bottom y left.
+
+## Display
+
