@@ -597,3 +597,14 @@ Sticky: Conservan su espacio físico pero cuando el scroll los alcanza lo siguen
 
 ## Display
 
+Display block: Va utilizar el 100% del espacio del widt. Se puede usar el margin y el padding en las cuatro posiciones 
+
+Display inline: 
+
+
+
+Etiquetas como p y div vienen por Default con un display:block
+Etiquetas como span viene por Default con un display:inline
+
+![imagen](https://user-images.githubusercontent.com/83564327/188296776-c655c41d-bcea-4ee1-a5c5-82a3efc8b52f.png)
+
