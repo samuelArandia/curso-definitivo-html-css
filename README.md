@@ -569,3 +569,42 @@ esto lo que hara es darle a el html un valor de 10px ya que 16px - 62.5% = 10px
 
 ahora si por ejemplo a una etiqueta le asignamos 2rem este hara referencia a 20px, o si por ejemplo le damos un valor de 1.5rem su valor sera de 15px
 em
+		     
+## Max/min width		     
+		     
+Min-height: se utiliza para definir la altura mínima de un elemento dado. Impide que el valor de la propiedad height llegue a ser más pequeña que la especificada en la altura mínima ( min-height ). Se refiere a la altura del bloque contenedor.
+
+Max-height: se utiliza para definir la altura máxima de un elemento dado. Impide que el valor de la altura pueda llegar a ser más grande que la de max-height . Porcentajes: se refiere a la altura del bloque contenedor.
+
+Min-width: se usa para determinar la anchura mínima de un elemento. Previene que la propiedad width pueda ser inferior que min-width . Aplicable a: elementos de tipo bloque. Porcentajes: se refieren a la anchura del bloque contenedor.
+
+Max-width: define el ancho máximo que un elemento puede tener, max-width cambia el tamaño del elemento si el valor de width es mayor que el de max-width.
+		
+		     
+## Position (https://developer.mozilla.org/es/docs/Web/CSS/position)
+		  
+Valores de position
+Static: Posición por defecto de los elementos, conservan la posición y espacio de donde son colocados (estáticos). No se puede usar top, right, bottom y left en esta posición.
+		     
+Absolute: Permanecen en la posición de donde fueron colocados pero pierden su espacio físico (se sobreponen a los elementos que ocupan dicho espacio), se los puede posicionar mediante las propiedades top, right, bottom y left.
+		     
+Importante: Al aplicar las propiedades top, right, bottom y left se tomará de referencia al contenedor más cercano con posición relativa.
+Relative: Conservan su posición original y espacio físico pero se los puede posicionar mediante las propiedades top, right, bottom y left sin perder dicho espacio físico.
+		     
+Fixed: Pierden su espacio físico y permanecen de forma fija (siguen el scroll, se colocan al lado izquierdo del viewport), se los puede posicionar mediante las propiedades de top, right, bottom y left.
+		     
+Sticky: Conservan su espacio físico pero cuando el scroll los alcanza lo siguen (sin perder dicho espacio físico), es muy usado para barras de navegación y se lo puede posicionar con las propiedades top, right, bottom y left.
+
+## Display
+
+Display block: Va utilizar el 100% del espacio del widt. Se puede usar el margin y el padding en las cuatro posiciones 
+
+Display inline: 
+
+
+
+Etiquetas como p y div vienen por Default con un display:block
+Etiquetas como span viene por Default con un display:inline
+
+![imagen](https://user-images.githubusercontent.com/83564327/188296776-c655c41d-bcea-4ee1-a5c5-82a3efc8b52f.png)
+
