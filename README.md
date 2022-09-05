@@ -570,7 +570,7 @@ esto lo que hara es darle a el html un valor de 10px ya que 16px - 62.5% = 10px
 ahora si por ejemplo a una etiqueta le asignamos 2rem este hara referencia a 20px, o si por ejemplo le damos un valor de 1.5rem su valor sera de 15px
 em
 		     
-## Max/min width		     
+## Max/min width (https://developer.mozilla.org/en-US/docs/Web/CSS/max-width)		     
 		     
 Min-height: se utiliza para definir la altura mínima de un elemento dado. Impide que el valor de la propiedad height llegue a ser más pequeña que la especificada en la altura mínima ( min-height ). Se refiere a la altura del bloque contenedor.
 
@@ -613,5 +613,5 @@ Etiquetas como span viene por Default con un display:inline
 		     
 El Módulo de Caja Flexible, comúnmente llamado flexbox, fue diseñado como un modelo unidimensional de layout, y como un método que pueda ayudar a distribuir el espacio entre los ítems de una interfaz y mejorar las capacidades de alineación. Este artículo hace un repaso de las principales características de flexbox, las que exploraremos con mayor detalle en el resto de estas guías.		
 
-Para utilizar flex debemos tener una contenedor 
+Para utilizar flex debemos tener una contenedor. 
 		    
