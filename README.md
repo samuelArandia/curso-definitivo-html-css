@@ -595,7 +595,7 @@ Fixed: Pierden su espacio físico y permanecen de forma fija (siguen el scroll, 
 		     
 Sticky: Conservan su espacio físico pero cuando el scroll los alcanza lo siguen (sin perder dicho espacio físico), es muy usado para barras de navegación y se lo puede posicionar con las propiedades top, right, bottom y left.
 
-## Display
+## Display (https://developer.mozilla.org/es/docs/Web/CSS/display)
 
 Display block: Va utilizar el 100% del espacio del widt. Se puede usar el margin y el padding en las cuatro posiciones 
 
