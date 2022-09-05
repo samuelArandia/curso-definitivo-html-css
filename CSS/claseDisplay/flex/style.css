@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+
+.container { 
+    border: 0.3rem solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.box { 
+    width: 10rem;
+    height: 10rem;
+}
+.box1 {
+    background-color: #f00;
+}
+.box2 {
+    background-color: #0f0;
+}
+.box3 {
+    background-color: #00f;
+}
+.box4 {
+    background-color: #ff0;
+}
+.box5 {
+    background-color: #0ff;
+}
+.box6 {
+    background-color: #f0f;
+}
