@@ -570,7 +570,7 @@ esto lo que hara es darle a el html un valor de 10px ya que 16px - 62.5% = 10px
 ahora si por ejemplo a una etiqueta le asignamos 2rem este hara referencia a 20px, o si por ejemplo le damos un valor de 1.5rem su valor sera de 15px
 em
 		     
-## Max/min width		     
+## Max/min width (https://developer.mozilla.org/en-US/docs/Web/CSS/max-width)		     
 		     
 Min-height: se utiliza para definir la altura mínima de un elemento dado. Impide que el valor de la propiedad height llegue a ser más pequeña que la especificada en la altura mínima ( min-height ). Se refiere a la altura del bloque contenedor.
 
@@ -595,16 +595,51 @@ Fixed: Pierden su espacio físico y permanecen de forma fija (siguen el scroll, 
 		     
 Sticky: Conservan su espacio físico pero cuando el scroll los alcanza lo siguen (sin perder dicho espacio físico), es muy usado para barras de navegación y se lo puede posicionar con las propiedades top, right, bottom y left.
 
-## Display
+## Display (https://developer.mozilla.org/es/docs/Web/CSS/display)
 
 Display block: Va utilizar el 100% del espacio del widt. Se puede usar el margin y el padding en las cuatro posiciones 
 
-Display inline: 
-
-
+Display inline: El elemento genera uno o más cuadros de elemento en línea.
 
 Etiquetas como p y div vienen por Default con un display:block
 Etiquetas como span viene por Default con un display:inline
 
 ![imagen](https://user-images.githubusercontent.com/83564327/188296776-c655c41d-bcea-4ee1-a5c5-82a3efc8b52f.png)
 
+		     
+## Displey flex  (https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+
+(https://css-tricks.com/snippets/css/a-guide-to-flexbox/) 
+		     
+Flex es un tipo de display que permite que el contenedor padre sea flexible a los cambios que puedan tener los elementos hijos en su alineación.
+
+Una vez tengamos el elemento padre con display: flex tenemos otras propiedades que podremos usar para nuestro beneficio.
+
+Flex-direction: Te permite elegir la alineación de los elementos hijos sea en vertical (column) u horizontal (row), esta alineación viene por defecto.
+		     
+Justify-content: Esta propiedad nos permite alinear el contenido de forma horizontal
+Valores:
+    Flex-start: Alinear items del flex desde el comienzo.
+    Flex-end: Alinear items desde el final.
+    Center: Alinear items en el centro del contenedor.
+    Space-between: Distribuir items uniformemente, el primer items al inicio, el último al final.
+    Space-around: Distribuir items uniformemente, estos tienen el mismo espacio a su alrededor.
+    Space-evenly: Distribuye uniformemente el espacio entre los items y su alrededor.
+		     
+Align-items: Sirve para alinear los elementos hijos de forma vertical.
+Valores:
+     Flex-start: Se alinean desde arriba.
+     Flex-end: Se alinean desde abajo.
+     Center: Alinea los item al centro del eje y del contenedor.
+     Stretch: Estira el alto de los elementos hijos al 100% del alto del elemento padre.
+     Baseline: Escala el alto del elemento al tamaño de su contenido.
+		     
+Flex-wrap: Permite que un elemento cuyo tamaño sea mayor al de la página haga un salto de línea sin salirse del contenedor, pues este se agranda.
+		     
+Order: Especifica el orden utilizado para disponer los elementos en su contenedor flexible. Los elementos estarán dispuestos en orden ascendente según el valor de order.
+		     
+Flex-grow: Especifica qué cantidad del espacio restante dentro del contenedor flexible, debería ocupar el ítem en cuestión según su dirección principal, esta última determinada por flex-direction.
+		     
+Flex-basis: Especifica el tamaño inicial de un elemento flexible.
+
+		    
