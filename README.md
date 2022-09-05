@@ -599,12 +599,18 @@ Sticky: Conservan su espacio físico pero cuando el scroll los alcanza lo siguen
 
 Display block: Va utilizar el 100% del espacio del widt. Se puede usar el margin y el padding en las cuatro posiciones 
 
-Display inline: 
-
-
+Display inline: El elemento genera uno o más cuadros de elemento en línea.
 
 Etiquetas como p y div vienen por Default con un display:block
 Etiquetas como span viene por Default con un display:inline
 
 ![imagen](https://user-images.githubusercontent.com/83564327/188296776-c655c41d-bcea-4ee1-a5c5-82a3efc8b52f.png)
 
+## Displey flex 
+
+	(https://css-tricks.com/snippets/css/a-guide-to-flexbox/) 
+	(https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+		     
+El Módulo de Caja Flexible, comúnmente llamado flexbox, fue diseñado como un modelo unidimensional de layout, y como un método que pueda ayudar a distribuir el espacio entre los ítems de una interfaz y mejorar las capacidades de alineación. Este artículo hace un repaso de las principales características de flexbox, las que exploraremos con mayor detalle en el resto de estas guías.		
+	
+		    
