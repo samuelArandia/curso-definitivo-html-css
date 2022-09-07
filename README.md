@@ -670,3 +670,30 @@ Buenas practicas:
 
 display=swap: esto le dice al navegador que  cuando termine de cargar el proyecto, despues de renderizar el proyecto cargue la fuente.
 
+### Pregunta Quiz 
+		     
+¿Cuáles son las partes de una regla de CSS?
+R- Selector, declaraciones, propiedad y valor de propiedad 
+
+## Resposive design: media queries (https://www.mydevice.io/)
+		     
+Se debe optimizar para todos los dispositivos. Hay tiene que tener en claro un par de conceptos:
+
+Break points: cuando la pantalla sea de cierto tamaño, se generará un cambio para reposicionar o redimensionar los contenedores.
+		     
+ Media Queries: son condicionales. No es la mejor práctica pero aplicándolo al CSS: @media (min-width: #;) {"código que se aplicará"} y se aplican para cada tamaño de dispositivo. El pixelaje dado será el break point.
+
+Lo más importante es diseñar para movil. Por lo que se debe diseñar con mobile first. Es decir, primero diseñar para celular, luego un break point para tablet y finalmente un break point para PC.
+
+Para aplicar media queries con buenas prácticas, hay que hacerlo en el header. Porque así solo se descarga el código necesario según el dispositivo, mientras que en CSS se descarga todo sin importar nada.
+
+En la tag link se colocan los atributos href, rel y, a partir del segundo archivo, el break point media="screen and (min-width: #px". El style.css debe estar hecho para mobile. Luego se pueden crear otros archivos como tablet.css o desktop.css.
+		     
+![imagen](https://user-images.githubusercontent.com/83564327/188778793-46ed5532-8463-49cf-85ec-6efda6414d0a.png)
+Forma ideal de trabajar Mobile Firts 
+		     
+## Mostly Fluid 
+		     
+El patrón Mostly fluid consiste, principalmente, en una cuadrícula fluida. Por lo general, en las pantallas grandes o medianas se mantiene el mismo tamaño y simplemente se ajustan los márgenes en las más anchas.
+
+En las pantallas más pequeñas, la cuadrícula fluida genera el reprocesamiento del contenido principal, mientras que las columnas se apilan verticalmente. Una de las mayores ventajas de este patrón es que, en general, solo se necesita un punto de interrupción entre las pantallas grandes y las pequeñas.
