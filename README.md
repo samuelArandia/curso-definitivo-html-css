@@ -642,4 +642,31 @@ Flex-grow: Especifica qué cantidad del espacio restante dentro del contenedor f
 		     
 Flex-basis: Especifica el tamaño inicial de un elemento flexible.
 
-		    
+## Variables (https://developer.mozilla.org/es/docs/Web/CSS/Using_CSS_custom_properties)
+
+Guarda valores que siempre usamos en los estilos para no repetir el mismo código a cada rato.
+
+Se guardan en :root {}. Se escriben así: --nombreVariable: valor;.
+
+Para llamarlas se pone en el valor de la propiedad: var(--nombreVariable);.
+		     
+		     	:root {
+  				--primary-color: #003476;
+  				--secundary-color: #b4d2f7;
+  				--header-size: 4rem;
+  				--font: 1.8rem;
+			}
+			h1 {
+  				font-size: var(--header-size);
+	  			color: var(--primary-color);
+			}
+## Font 
+
+Google fonts mejor buscardo de fuentes 
+
+Buenas practicas: 
+-Solo cargar una 1 fuente por proyecto 
+-Importarla en siempre la etiqueta del head 
+
+display=swap: esto le dice al navegador que  cuando termine de cargar el proyecto, despues de renderizar el proyecto cargue la fuente.
+
