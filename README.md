@@ -670,3 +670,7 @@ Buenas practicas:
 
 display=swap: esto le dice al navegador que  cuando termine de cargar el proyecto, despues de renderizar el proyecto cargue la fuente.
 
+### Pregunta Quiz 
+		     
+¿Cuáles son las partes de una regla de CSS?
+R- Selector, declaraciones, propiedad y valor de propiedad 
