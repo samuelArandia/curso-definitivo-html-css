@@ -763,3 +763,24 @@ De esta forma, estamos indicando que se muestren diferentes imágenes dependiend
 -Dispositivos grandes (entre 300-600px): Muestra la imagen html5-logo-large.png
 -Dispositivos pequeños (menos de 50px): Muestra la imagen html5-logo-small.png
 Si no cumple las anteriores (o no soporta HTML5.1): Muestra la imagen html5-logo-medium.png
+
+## Textos 
+
+Se recomienda fuertemente usar medidas relativas como rem, para poder incrementar el tamaño del texto para personas con visibilidad disminuida. Las opciones de navegador que cambian el tamaño de las fuentes no funcionan cuando las fuentes de html en el texto están en pixeles (px).
+
+## Semántica (https://allthetags.com/)
+
+La semántica está relacionada con las etiquetas contenedoras en HTML5, por ejemplo: header, main, sidebar y footer. Estas agregan información importante para aquellos que tengan problemas con la visualización de la página. Les permite a estos usuarios orientarse en qué sección de la página se encuentran.
+
+Por eso, es importante utilizar las diferentes etiquetas que HTML5 ofrece para tener la mejor semántica posible y la accesibilidad.
+
+## Labels, alt y titles 
+
+“La accesibilidad es una acto de democratización al acceso de productos digitales, es la reivindicación del derecho de una persona con ciertas capacidades diferentes a acceder a las mismas plataformas.”
+
+-La semántica jugará un papel importante en la lectura de la plataforma por parte de un software
+-Es recomendable en cualquier situación el uso de medidas relativas (REM, EM) pues estas modificarán su tamaño en nuestra página cuando un usuario modifique el tamaño de las letras en la configuración de su navegador.
+-El uso de <label> en los formularios facilita la interacción de las personas y software con ellos. Por ejemplo al apretar la barra de espacio en un input que despligue un submenú, este se mostrará.
+-alt en las imágenes proporciona una descripción para un lector de contenido.
+-El atributo title puede ser usado en las etiquetas img y a para dar una descripción de sus contenidos al hacer hover.
+
