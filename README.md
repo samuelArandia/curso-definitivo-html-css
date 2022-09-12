@@ -763,3 +763,7 @@ De esta forma, estamos indicando que se muestren diferentes imágenes dependiend
 -Dispositivos grandes (entre 300-600px): Muestra la imagen html5-logo-large.png
 -Dispositivos pequeños (menos de 50px): Muestra la imagen html5-logo-small.png
 Si no cumple las anteriores (o no soporta HTML5.1): Muestra la imagen html5-logo-medium.png
+
+## Textos 
+
+Se recomienda fuertemente usar medidas relativas como rem, para poder incrementar el tamaño del texto para personas con visibilidad disminuida. Las opciones de navegador que cambian el tamaño de las fuentes no funcionan cuando las fuentes de html en el texto están en pixeles (px).
