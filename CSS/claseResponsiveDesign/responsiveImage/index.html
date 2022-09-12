@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Imagen </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <picture>
+            <!-- source no renderiza la imagen -->
+            <!-- serguir el orden de mayor a menor -->
+            <source media="(min-width:1300px)" srcset="./img/pexels-mathias-reding-13046522.jpg">
+            <source media="(min-width:1000px)" srcset="./img/pexels-ricardo-esquivel-2295436.jpg">
+            <img src="./img/pexels-диана-багаутдинова-9876092.jpg" alt=" imageng de ejemplo">
+        </picture>
+    </main>
+</body>
+</html>
