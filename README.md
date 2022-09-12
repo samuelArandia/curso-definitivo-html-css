@@ -697,3 +697,40 @@ Forma ideal de trabajar Mobile Firts
 El patrón Mostly fluid consiste, principalmente, en una cuadrícula fluida. Por lo general, en las pantallas grandes o medianas se mantiene el mismo tamaño y simplemente se ajustan los márgenes en las más anchas.
 
 En las pantallas más pequeñas, la cuadrícula fluida genera el reprocesamiento del contenido principal, mientras que las columnas se apilan verticalmente. Una de las mayores ventajas de este patrón es que, en general, solo se necesita un punto de interrupción entre las pantallas grandes y las pequeñas.
+
+## Layout shifter CSS
+		     
+	![imagen](https://user-images.githubusercontent.com/83564327/188785922-83c72e18-d0eb-4b6f-b780-76bd373cca60.png)
+
+## Column Drop 
+  ![imagen](https://user-images.githubusercontent.com/83564327/188785994-f8a04873-e01b-4ec9-a59a-193c206e2b4d.png)
+
+# Resumen 
+
+Mostly Fluid
+
+El patrón Mostly fluid consiste, principalmente, en una cuadrícula fluida. Por lo general, en las pantallas grandes o medianas se mantiene el mismo tamaño y simplemente se ajustan los márgenes en las más anchas.
+
+		     ![imagen](https://user-images.githubusercontent.com/83564327/189033968-aa2ccc75-e63f-4008-937f-4a0f260e340e.png)
+
+Column Drop
+
+En el caso de los diseños con varias columnas de ancho completo, durante el proceso de colocación de columnas éstas únicamente se colocan de forma vertical debido a que el ancho de la ventana es demasiado reducido para el contenido.
+
+		     ![imagen](https://user-images.githubusercontent.com/83564327/189033981-d11412ee-80a9-495b-bde6-eafa6a2b3661.png)
+
+Layout shifter
+
+El patrón Layout shifter es el más adaptable, ya que posee varios puntos de interrupción en diferentes anchos de pantalla.
+
+La clave para este diseño es el desplazamiento del contenido, en lugar de su reprocesamiento y colocación debajo de otras columnas. Debido a las diferencias significativas entre cada punto de interrupción principal, es más complejo de mantener, y es posible que se deban realizar cambios dentro de los elementos, no solo en el diseño de contenido general.
+		     ![imagen](https://user-images.githubusercontent.com/83564327/189033991-e02ccfa9-5ae1-45f1-a3be-3057c2dc06c2.png)
+
+
+## Buenas practicas  y ejemplos de responsive 
+
+![imagen](https://user-images.githubusercontent.com/83564327/189468850-bbdbf7d8-95b6-476c-80e3-a80f0b1d987f.png)
+
+Pagina para chequear porcentaje de las pantallas:  https://www.mydevice.io/
+
+-No hacer mas de 6 breakpoint 
