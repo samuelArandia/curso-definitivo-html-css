@@ -1,5 +1,6 @@
 # Curso definitivo de HTML Y CSS 
 
+(https://platzi.com/blog/etiquetas-html-debes-conocer/)
 ## Frontend 
 
 Frontend es la parte de un programa o dispositivo a la que un usuario puede acceder directamente. Son todas las tecnologías de diseño y desarrollo web que corren en el navegador y que se encargan de la interactividad con los usuarios.
@@ -783,4 +784,8 @@ Por eso, es importante utilizar las diferentes etiquetas que HTML5 ofrece para t
 -El uso de <label> en los formularios facilita la interacción de las personas y software con ellos. Por ejemplo al apretar la barra de espacio en un input que despligue un submenú, este se mostrará.
 -alt en las imágenes proporciona una descripción para un lector de contenido.
 -El atributo title puede ser usado en las etiquetas img y a para dar una descripción de sus contenidos al hacer hover.
+
+## Bonus 
+
+![imagen](https://user-images.githubusercontent.com/83564327/189560372-402c330a-55a7-4564-a972-18540db704ef.png)
 
