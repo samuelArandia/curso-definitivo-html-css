@@ -725,3 +725,10 @@ El patrón Layout shifter es el más adaptable, ya que posee varios puntos de in
 
 La clave para este diseño es el desplazamiento del contenido, en lugar de su reprocesamiento y colocación debajo de otras columnas. Debido a las diferencias significativas entre cada punto de interrupción principal, es más complejo de mantener, y es posible que se deban realizar cambios dentro de los elementos, no solo en el diseño de contenido general.
 		     ![imagen](https://user-images.githubusercontent.com/83564327/189033991-e02ccfa9-5ae1-45f1-a3be-3057c2dc06c2.png)
+
+
+## Buenas practicas  y ejemplos de responsive 
+
+![imagen](https://user-images.githubusercontent.com/83564327/189468850-bbdbf7d8-95b6-476c-80e3-a80f0b1d987f.png)
+
+Pagina para chequear porcentaje de las pantallas:  http://wwww.mydevice.oi
