@@ -732,3 +732,5 @@ La clave para este diseño es el desplazamiento del contenido, en lugar de su re
 ![imagen](https://user-images.githubusercontent.com/83564327/189468850-bbdbf7d8-95b6-476c-80e3-a80f0b1d987f.png)
 
 Pagina para chequear porcentaje de las pantallas:  https://www.mydevice.io/
+
+-No hacer mas de 6 breakpoint 
