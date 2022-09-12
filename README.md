@@ -734,3 +734,32 @@ La clave para este diseño es el desplazamiento del contenido, en lugar de su re
 Pagina para chequear porcentaje de las pantallas:  https://www.mydevice.io/
 
 -No hacer mas de 6 breakpoint 
+
+## Responsive Imgenes 
+
+Width de 100% es tu mejor amigo, Buena practica 
+
+	<picture> <!-- Agrupa una serie de imágenes. Etiqueta contenedora. -->
+
+	<source> <!-- Mostrará la imagen que cumpla una serie de criterios opcionales. 		-->
+
+Imágenes responsive
+
+Otra ventaja interesante es que con <picture> podemos crear imágenes responsive que cambien dependiendo de características de las media queries (CSS). Por ejemplo, utilicemos min-width (tamaño mínimo de ancho de la pantalla) en el siguiente ejemplo:
+
+	<picture>
+  		<source media="(min-width: 600px)"
+  		        srcset="html5-logo-xl.png" />
+  		<source media="(min-width: 300px) and (max-width: 600px)"
+  		        srcset="html5-logo-large.png" />
+  		<source media="(max-width: 50px)"
+  		        srcset="html5-logo-small.png" />
+  		<img src="html5-logo-medium.png" alt="HTML5 logo" />
+	</picture>
+
+De esta forma, estamos indicando que se muestren diferentes imágenes dependiendo de la resolución de pantalla (ancho) del dispositivo:
+
+-Dispositivos muy grandes (más de 600px): Muestra la imagen html5-logo-xl.png
+-Dispositivos grandes (entre 300-600px): Muestra la imagen html5-logo-large.png
+-Dispositivos pequeños (menos de 50px): Muestra la imagen html5-logo-small.png
+Si no cumple las anteriores (o no soporta HTML5.1): Muestra la imagen html5-logo-medium.png
